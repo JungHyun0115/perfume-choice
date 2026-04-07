@@ -104,7 +104,7 @@ function App() {
             transition={{ duration: 0.6, delay: 0.2 }} // 결과 화면은 약간 천천히 등장
           >
             <h2>당신의 향기는...</h2>
-            <img src={process.env.PUBLIC_URL +result.image} alt={result.name} className="result-img" />
+            <img src={process.env.PUBLIC_URL + result.image} alt={result.name} className="result-img" />
             <h3>{result.name}</h3>
             <p>{result.desc}</p>
             <div className="notes-container">
