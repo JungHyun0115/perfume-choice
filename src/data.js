@@ -77,19 +77,19 @@ export const results = {
     {
       name: "르라보 - 상탈 33",
       desc: "독립적이고 묵직한 존재감을 가진 당신, 스모키한 우디향이 당신의 확고한 취향을 대변해줍니다.",
-      image: "/res/lelabo_santal33.jpg",
+      image: "./res/lelabo_santal33.jpg",
       notes: { top: "바이올렛, 카다멈", middle: "아이리스, 암브록스", base: "샌달우드, 시더우드" }
     },
     {
       name: "이솝 - 휠 (Hwyl)",
       desc: "고요한 숲속의 사찰이 떠오르는 향기. 깊은 사색을 즐기고 내면의 평온을 중요시하는 당신에게 어울려요.",
-      image: "/res/aesop_hwyl.jpg",
+      image: "./res/aesop_hwyl.jpg",
       notes: { top: "타임, 엘레미", middle: "사이프러스", base: "베티버, 프랑킨센스" }
     },
     {
       name: "논픽션 - 상탈크림",
       desc: "나른한 오후의 햇살처럼 부드러운 우디향입니다. 차분하면서도 세련된 무드를 추구하는 당신을 닮았네요.",
-      image: "/res/nonfiction_santal_cream.jpeg",
+      image: "./res/nonfiction_santal_cream.jpeg",
       notes: { top: "카다멈", middle: "진저, 미모사", base: "샌달우드, 시더우드" }
     }
   ],
@@ -97,13 +97,13 @@ export const results = {
     {
       name: "딥디크 - 도 손",
       desc: "클래식하고 우아하며 화려한 매력을 지녔군요. 튜베로즈의 진한 꽃향기가 당신의 품격을 높여줍니다.",
-      image: "/res/diptyque_doson.jpg",
+      image: "./res/diptyque_doson.jpg",
       notes: { top: "아프리칸 오렌지 플라워, 로즈", middle: "튜베로즈, 핑크 페퍼", base: "벤조인, 머스크" }
     },
     {
       name: "바이레도 - 라 튤립",
       desc: "이슬 맺힌 튤립처럼 싱그럽고 긍정적인 에너지를 가진 당신! 봄의 시작처럼 설레는 향기가 어울립니다.",
-      image: "/res/byredo_la_tulipe.jpg",
+      image: "./res/byredo_la_tulipe.jpg",
       notes: { top: "루바브, 시클라멘, 프리지아", middle: "튤립", base: "블론드 우드, 베티버" }
     }
   ],
@@ -111,13 +111,13 @@ export const results = {
     {
       name: "조말론 - 우드 세이지 & 씨 솔트",
       desc: "자유로운 영혼을 가진 당신, 바다의 청량함과 소금기 섞인 바람의 향기가 당신의 활동적인 성향과 잘 맞아요.",
-      image: "/res/jomalone_woodsage.jpg",
+      image: "./res/jomalone_woodsage.jpg",
       notes: { top: "암브레트 씨드", middle: "씨 솔트", base: "세이지" }
     },
     {
       name: "이솝 - 테싯 (Tacit)",
       desc: "마음까지 맑아지는 유자 향과 허브의 조화. 깔끔하고 지적인 분위기를 선호하는 당신에게 추천합니다.",
-      image: "/res/aesop_tacit.jpg",
+      image: "./res/aesop_tacit.jpg",
       notes: { top: "유자, 바질", middle: "로즈마리, 민트", base: "시더우드, 베티버" }
     }
   ],
@@ -125,19 +125,19 @@ export const results = {
     {
       name: "탬버린즈 - 카모 (CHAMO)",
       desc: "주변 사람들에게 따뜻한 위로를 주는 포근한 사람입니다. 달콤한 꿀과 머스크의 조화가 당신의 다정함을 닮았어요.",
-      image: "/res/tamburins_chamo.jpg",
+      image: "./res/tamburins_chamo.jpg",
       notes: { top: "클래리 세이지, 카모마일", middle: "워터리 노드, 사이프러스", base: "엠버, 머스크, 블론드 우드" }
     },
     {
       name: "바이레도 - 블랑쉬",
       desc: "갓 세탁한 하얀 셔츠처럼 깨끗하고 순수한 매력! 미니멀하고 깔끔한 라이프스타일을 즐기는 당신에게 딱입니다.",
-      image: "/res/byredo_blanche.jpg",
+      image: "./res/byredo_blanche.jpg",
       notes: { top: "화이트 로즈, 핑크 페퍼", middle: "바이올렛, 네롤리, 작약", base: "블론드 우드, 샌달우드, 머스크" }
     },
     {
       name: "논픽션 - 포겟미낫",
       desc: "중성적이면서도 신비로운 매력을 가진 당신. 톡 쏘는 페퍼와 머스크의 만남이 당신의 개성을 돋보이게 합니다.",
-      image: "/res/nonfiction_forgetmenot.jpg",
+      image: "./res/nonfiction_forgetmenot.jpg",
       notes: { top: "바질, 페퍼", middle: "그린 노트", base: "가디니아, 엠버" }
     }
   ],
