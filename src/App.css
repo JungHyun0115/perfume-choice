@@ -1,38 +1,117 @@
-.App {
+/* 기본 배경 설정 (전체 화면 대응) */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4b3621; /* 캡처본에 있는 고급스러운 브라운 톤 유지 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 높이에 꽉 차게 */
+  font-family: 'Pretendard', -apple-system, sans-serif;
+}
+
+/* 메인 컨테이너 (반응형 너비 설정) */
+.app-container {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  width: 90%; /* 모바일에서는 화면의 90% 차지 */
+  max-width: 400px; /* 데스크탑에서는 최대 400px 고정 */
   text-align: center;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 텍스트 반응형 (글자 크기를 비율로 조절) */
+h1 {
+  font-size: 1.8rem; /* 모바일에 적당한 크기 */
+  margin-bottom: 12px;
+  word-break: keep-all; /* 한글 줄바꿈 예쁘게 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 버튼 반응형 */
+.main-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 80%; /* 모바일에서 누르기 편하게 넓게 설정 */
+  transition: transform 0.2s ease;
+}
+
+/* 답변 버튼 리스트 (간격 조절) */
+.answer-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.answer-btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  background-color: #fbfbfb;
+  font-size: 0.95rem;
+  text-align: left;
+  line-height: 1.4;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 이미지 반응형 (가로 너비에 맞게) */
+.result-img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.notes-container {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 20px 0;
+  text-align: left; /* 노트 정보는 왼쪽 정렬이 읽기 편함 */
+  font-size: 0.85rem;
+}
+
+.note-item {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+
+.note-item strong {
+  color: #333;
+  margin-right: 5px;
+  display: inline-block;
+  width: 50px; /* 라벨 너비 고정으로 깔끔하게 정렬 */
+}
+
+/* 결과 이미지 크기 조정 (노트가 들어가므로 약간 줄임) */
+.result-img {
+  width: 60%;
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+/* 미디어 쿼리: 아주 작은 화면(아이폰 SE 등) 대응 */
+@media (max-width: 320px) {
+  h1 { font-size: 1.5rem; }
+  .app-container { padding: 30px 15px; }
 }
