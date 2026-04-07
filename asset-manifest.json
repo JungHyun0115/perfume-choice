@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/perfume-choice/static/css/main.1c902f05.css",
-    "main.js": "/perfume-choice/static/js/main.c985586b.js",
+    "main.js": "/perfume-choice/static/js/main.d8c84ecd.js",
     "static/js/453.fcd37248.chunk.js": "/perfume-choice/static/js/453.fcd37248.chunk.js",
     "index.html": "/perfume-choice/index.html",
     "main.1c902f05.css.map": "/perfume-choice/static/css/main.1c902f05.css.map",
-    "main.c985586b.js.map": "/perfume-choice/static/js/main.c985586b.js.map",
+    "main.d8c84ecd.js.map": "/perfume-choice/static/js/main.d8c84ecd.js.map",
     "453.fcd37248.chunk.js.map": "/perfume-choice/static/js/453.fcd37248.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c902f05.css",
-    "static/js/main.c985586b.js"
+    "static/js/main.d8c84ecd.js"
   ]
 }
